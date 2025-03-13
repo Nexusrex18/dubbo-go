@@ -19,9 +19,9 @@ package common
 
 import (
 	"encoding/base64"
-	"fmt"
 	"net/url"
 	"testing"
+	"fmt"
 )
 
 import (
@@ -603,3 +603,4 @@ func BenchmarkClone(b *testing.B) {
 		u.Clone()
 	}
 }
+
